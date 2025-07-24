@@ -1,0 +1,242 @@
+    .carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-item .na::before  {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(202, 26, 26, 0.6); /* black overlay */
+      z-index: 1;
+    }
+
+    .h{
+      background-color: white;
+    }
+    .carousel-caption {
+      z-index: 2;
+    }
+
+    .carousel-caption h1 {
+      font-weight: bold;
+     font-size: 50px;
+    }
+
+    .carousel-caption p {
+      font-size: 15px;
+      margin: 5px 0;
+    }
+
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .section-title {
+      font-weight: bold;
+      font-size: 32px;
+      margin-top: 80px;
+    }
+    .a {
+      width: 50px;
+      height: 3px;
+      background-color: #f4b000;
+      margin-bottom: 10px;
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #f4b000;
+    }
+    .btn-warning {
+      background-color: #f4b000;
+      border: none;
+    }
+    span{
+      color: #f4b000;
+    }
+
+    .abcd{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+     .service-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+      text-align: left;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .service-icon {
+      font-size: 40px;
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .service-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .service-title::before{
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 140px;
+      left: 0;
+      bottom: 0;
+      background-color: black;
+      border-radius: 5px;
+    }
+
+    .service-card:hover .read-more {
+  color: rgb(238, 201, 17);
+}
+
+.service-card:hover .service-title::before {
+  background-color: rgb(238, 201, 17);
+}
+  
+    .read-more {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+    .icon-box {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .icon-shape {
+      width: 100px;
+      height: 50px;
+      background-color: #f8f9fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 24px;
+      margin-right: 15px;
+    }
+.icon-shape:hover{
+      background-color: rgb(238, 201, 17);
+    }
+.icon-box h5:hover{
+      color: rgb(238, 201, 17);
+}
+    .icon-box h5 {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .icon-box p {
+      font-size: 15px;
+      color: #444;
+    }
+    
+    .nav-tabs .nav-link.active {
+      color: #000;
+      font-weight: 600;
+      border: none;
+      border-bottom: 3px solid #f9b800;
+    }
+    .nav-tabs .nav-link {
+      color: #333;
+      border: none;
+    }
+    .tab-content {
+      padding-top: 30px;
+    }
+    .check-icon {
+      color: #f9b800;
+      margin-right: 8px;
+    }
+
+  .higy {
+  background-color: white !important;
+  opacity: 1;
+  padding: 30px 0;
+  height: 300px;
+  overflow: hidden;
+}
+
+.hj {
+  border: 1px solid #eee;
+  background-color: #fff; /* Ensure each card also has white bg */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  z-index: 1;
+}
+
+.abcf{
+   background-color: white !important;
+   background: transparent;
+}
+
+#carouselExampleControls{
+   background-color: white !important;
+   background: transparent;
+
+}
+.fg {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.fg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url(https://bootstrapmade.com/content/demo/UpConstruction/assets/img/projects/construction-2.jpg);
+  background-size: cover;
+  filter: blur(5px);
+  z-index: 0;
+}
+
+.fg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ab{
+  color: #000;
+}
+
+.ac{
+  background-color: #f4b000;
+  border-radius: 2px;
+}
+.b{
+  color: #f4b000;
+}
+.n{
+  border: 1px solid black;
+}
+.fg :hover{
+       color: rgb(238, 201, 17);
+}
